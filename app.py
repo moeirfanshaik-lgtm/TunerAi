@@ -178,7 +178,7 @@ if df is not None:
     with tab2:
         st.subheader("Interactive Telemetry Analysis")
         
-        col1, col2 = st.subplots(2)
+        col1, col2 = st.columns(2)
         
         with col1:
             if 'RPM' in df.columns and 'AFR' in df.columns:
